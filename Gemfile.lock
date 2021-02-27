@@ -1,0 +1,29 @@
+PATH
+  remote: /Users/lori/Dropbox/Projects/MiMNew/PListReadWrite
+  specs:
+    plist_read_write (0.0.1.1)
+
+PATH
+  remote: /Users/lori/Dropbox/Projects/MiMNew/motion-sqlite3
+  specs:
+    motion-sqlite3 (1.1.0)
+      motion.h (~> 0.0.6)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bubble-wrap (1.9.6)
+    motion.h (0.0.7)
+    rake (13.0.3)
+
+PLATFORMS
+  arm64-darwin-20
+
+DEPENDENCIES
+  bubble-wrap
+  motion-sqlite3!
+  plist_read_write!
+  rake
+
+BUNDLED WITH
+   2.2.11
